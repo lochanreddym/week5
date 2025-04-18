@@ -1,0 +1,18 @@
+#app {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+  padding: 1rem;
+}
+
+hello-world {
+  grid-column: 1 / 6;
+}
+
+lit-hello-world, .field {
+  grid-column: 1 / 4;
+}
+
+demo-component, .columns {
+  grid-column: 4 / 6;
+}
